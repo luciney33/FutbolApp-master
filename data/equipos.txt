@@ -1,0 +1,10 @@
+1;Real Madrid;Madrid;Santiago Bernabéu;Ancelotti
+2;Barcelona;Barcelona;Spotify Camp Nou;Xavi
+3;Sevilla;Sevilla;Ramón Sánchez-Pizjuán;Mendilibar
+4;Atlético de Madrid;Madrid;Wanda Metropolitano;Diego Simeone
+5;Valencia;Valencia;Mestalla;Gennaro Gattuso
+6;Villarreal;Villarreal;Estadio de la Cerámica;Unai Emery
+7;Real Sociedad;San Sebastián;Anoeta;Imanol Alguacil
+8;Athletic Club;Bilbao;San Mamés;Ernesto Valverde
+9;Real Betis;Sevilla;Benito Villamarín;Manuel Pellegrini
+10;Getafe;Getafe;Coliseum Alfonso Pérez;José Bordalás

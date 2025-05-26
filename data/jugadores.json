@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lionel Messi",
+    "equipo": "Barcelona",
+    "goles": 30,
+    "asistencias": 20,
+    "fechaNac": "1990-06-24",
+    "posicion": "Delantero"
+  },
+  {
+    "id": 2,
+    "nombre": "Cristiano Ronaldo",
+    "equipo": "Juventus",
+    "goles": 32,
+    "asistencias": 15,
+    "fechaNac": "1990-02-05",
+    "posicion": "Delantero"
+  },
+  {
+    "id": 3,
+    "nombre": "Neymar",
+    "equipo": "Barcelona",
+    "goles": 10000,
+    "asistencias": 500,
+    "fechaNac": "1992-02-05",
+    "posicion": "Delantero"
+  },
+  {
+    "id": 4,
+    "nombre": "Kylian Mbappé",
+    "equipo": "Paris Saint-Germain",
+    "goles": 28,
+    "asistencias": 18,
+    "fechaNac": "1998-12-20",
+    "posicion": "Delantero"
+  },
+  {
+    "id": 5,
+    "nombre": "Kevin De Bruyne",
+    "equipo": "Manchester City",
+    "goles": 15,
+    "asistencias": 25,
+    "fechaNac": "1991-06-28",
+    "posicion": "Centrocampista"
+  },
+  {
+    "id": 6,
+    "nombre": "Robert Lewandowski",
+    "equipo": "Bayern Munich",
+    "goles": 40,
+    "asistencias": 10,
+    "fechaNac": "1988-08-21",
+    "posicion": "Delantero"
+  },
+  {
+    "id": 7,
+    "nombre": "Luka Modrić",
+    "equipo": "Real Madrid",
+    "goles": 8,
+    "asistencias": 12,
+    "fechaNac": "1985-09-09",
+    "posicion": "Centrocampista"
+  },
+  {
+    "id": 8,
+    "nombre": "Sergio Ramos",
+    "equipo": "Paris Saint-Germain",
+    "goles": 6,
+    "asistencias": 5,
+    "fechaNac": "1986-03-30",
+    "posicion": "Defensa"
+  },
+  {
+    "id": 9,
+    "nombre": "Julián Álvarez",
+    "equipo": "Atlético de Madrid",
+    "goles": 15,
+    "asistencias": 7,
+    "fechaNac": "2000-01-31",
+    "posicion": "Delantero"
+  },
+  {
+    "id": 10,
+    "nombre": "Conor Gallagher",
+    "equipo": "Atlético de Madrid",
+    "goles": 23,
+    "asistencias": 15,
+    "fechaNac": "2000-02-06",
+    "posicion": "Centrocampista"
+  }
+]
