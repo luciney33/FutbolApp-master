@@ -9,10 +9,7 @@ import org.example.domain.DatosAleatorios;
 import org.example.domain.Jugador;
 
 import java.io.IOException;
-import java.util.Comparator;
-import java.util.LinkedHashSet;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class GestionJugadorImplementacion implements GestionJugador{
@@ -81,6 +78,13 @@ public class GestionJugadorImplementacion implements GestionJugador{
     @Override
     public Optional<Jugador> buscarPorId(int id) throws ExcepcionIdErroneo {
         return jugadorDAO.buscarPorId(id);
+    }
+
+    @Override
+    public Map<String, Set<Jugador>> agruparPorPosicion() {
+        Map<String, Set<Jugador>> mapa= new HashMap<>();
+        mapa.keySet().stream().collect(Collectors.toSet());
+        return m;
     }
 
 }

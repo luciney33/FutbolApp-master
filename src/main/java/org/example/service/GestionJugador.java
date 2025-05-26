@@ -4,6 +4,7 @@ import org.example.common.ExcepcionIdErroneo;
 import org.example.domain.Jugador;
 
 import java.io.IOException;
+import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
@@ -17,4 +18,5 @@ public interface GestionJugador{
     public Set<Jugador> listarJugadoresPorEdadAscendente();
     public Set<Jugador> filtrarPorEquipo(String nombreEquipo);
     public Optional<Jugador> buscarPorId(int id) throws ExcepcionIdErroneo;
+    public Map<String, Set<Jugador>> agruparPorPosicion();
 }

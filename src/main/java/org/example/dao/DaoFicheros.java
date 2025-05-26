@@ -18,13 +18,9 @@ import java.util.Set;
 
 
 public class DaoFicheros {
-    private static final Gson gson = new GsonBuilder()
-            .registerTypeAdapter(LocalDate.class, (JsonDeserializer<LocalDate>) (json, type, context) ->
-                    LocalDate.parse(json.getAsJsonPrimitive().getAsString(), DateTimeFormatter.ISO_LOCAL_DATE))
-            .registerTypeAdapter(LocalDate.class, (JsonSerializer<LocalDate>) (date, type, context) ->
-                    new JsonPrimitive(date.format(DateTimeFormatter.ISO_LOCAL_DATE)))
-            .setPrettyPrinting()
-            .create();
+    private static final Gson gson = new GsonBuilder().registerTypeAdapter(LocalDate.class, (JsonDeserializer<LocalDate>) (json, type, context) ->
+                    LocalDate.parse(json.getAsJsonPrimitive().getAsString(), DateTimeFormatter.ISO_LOCAL_DATE)).registerTypeAdapter(LocalDate.class, (JsonSerializer<LocalDate>) (date, type, context) ->
+                    new JsonPrimitive(date.format(DateTimeFormatter.ISO_LOCAL_DATE))).setPrettyPrinting().create();
     public static Set<Jugador> leerJugadores() {
         Set<Jugador> jugadores = new HashSet<>();
         File fichero = new File(Constantes.FICHERO_JUGADORES_JSON);
