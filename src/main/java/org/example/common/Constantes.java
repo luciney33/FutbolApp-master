@@ -1,7 +1,7 @@
 package org.example.common;
 public class Constantes {
     public static final String BIENVENIDA = "---------- Bienvenido a la Liga ----------";
-    public static final String MENU_ROL = "1. Administrador\n2. Usuario\n0. Salir";
+    public static final String MENU_ROL = "1. Administrador\n2. Usuario(te tienes que registrar Gema)\n0. Salir";
     public static final String MENU_ADMIN1 = "---- ADMINISTRADOR ----\n1. Gestion Jugadores\n2. Gestion de Equipos\n0. Volver";
     public static final String MENU_ADMIN2 = "[Gestion Jugadores]\n"
             + "1. Insertar jugador aleatorio\n"
@@ -32,6 +32,7 @@ public class Constantes {
             "8. Mostrar jugador más goleador\n"+
             "9. Listar jugadores por edad ascendente\n"+
             "10. Comparar goles entre dos jugadores\n"+
+            "11. Agrupar todos los jugadores por posición\n"+
             "0. Volver";
     public static final String MENU_USUARIO3 = "1. Listar todos los equipos\n" +
             "2. Buscar equipos por ciudad\n" +
@@ -40,15 +41,15 @@ public class Constantes {
             "5. Ver jugadores de un equipo\n"+
             "0. Volver";
     public static final String ELEGIR_OPCION = "Selecciona una opción:";
-    public static final String OPCION_INVALIDA = "ERROR: Opción no válida.";
+    public static final String OPCION_INVALIDA = "ERROR: Opción no válida";
     public static final String SALIR_APP = "Cerrando aplicación...";
     public static final String PIDE_ID_JUGADOR = "Introduce ID del jugador:";
     public static final String PIDE_GOLES = "Introduce número de goles a añadir: ";
     public static final String PIDE_ASISTENCIAS = "Introduce número de asistencias a añadir:";
-    public static final String JUGADOR_INSERTADO = "Jugador insertado con éxito.";
-    public static final String GOLES_ACTUALIZADOS = "Goles actualizados correctamente.";
-    public static final String ASISTENCIAS_ACTUALIZADAS = "Asistencias actualizados correctamente.";
-    public static final String JUGADOR_NO_ENCONTRADO = "ERROR: Jugador no encontrado.";
+    public static final String JUGADOR_INSERTADO = "Jugador insertado con éxito";
+    public static final String GOLES_ACTUALIZADOS = "Goles actualizados correctamente";
+    public static final String ASISTENCIAS_ACTUALIZADAS = "Asistencias actualizados correctamente";
+    public static final String JUGADOR_NO_ENCONTRADO = "ERROR: Jugador no encontrado";
     public static final String SEPARADOR = "-----------------------------";
     public static final String USU = "Usuario: ";
     public static final String CONTRA = "Contraseña: ";

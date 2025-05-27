@@ -1,14 +1,11 @@
 package org.example.service;
 
 import org.example.common.ComprobacionId;
-import org.example.common.Constantes;
 import org.example.common.ExcepcionIdErroneo;
 import org.example.dao.JugadorDAO;
 import org.example.dao.JugadorDaoImplementacion;
-import org.example.domain.DatosAleatorios;
 import org.example.domain.Jugador;
 
-import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -81,10 +78,8 @@ public class GestionJugadorImplementacion implements GestionJugador{
     }
 
     @Override
-    public Map<String, Set<Jugador>> agruparPorPosicion() {
-        Map<String, Set<Jugador>> mapa= new HashMap<>();
-        mapa.keySet().stream().collect(Collectors.toSet());
-        return m;
+    public Map<String, Set<Jugador>> agruparJugadoresPorPosicion() {
+        return jugadorDAO.getJugadores().stream().collect(Collectors.groupingBy(Jugador::getPosicion, Collectors.toSet()));
     }
 
 }
